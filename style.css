@@ -5,7 +5,7 @@
  
 body {
     background-color: #131313;
-    background-image: url("../img/background-pizza.png");
+    background-image: url("img/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,11 +17,11 @@ header {
 }
  
 h1, footer a {
-    height: 70px;
+    height: 80px;
     width: 304px;
     overflow: hidden;
     text-indent: -9999px;
-    background: url("../img/logo-helloPizza.png") 0 0 no-repeat;
+    background: url("img/logoPiza.png") 0 0 no-repeat;
     display: block;
 }
  
@@ -159,6 +159,8 @@ input[type="submit"] {
     width: 555px;
     margin: 25px 0;
     padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
  
 input:focus,
@@ -169,15 +171,15 @@ button:focus {
 }
  
 footer {
-    height: 100px;
+    height: 110px;
     background-color: #2a2a2a;
     position: relative;
     padding: 35px 0 10px 0;
 }
  
 footer a {
-    width: 200px;
-    background-size: 200px 46px;
+    width: 190px;
+    background-size: 200px 200px;
     background-repeat: no-repeat;
     display: block;
     margin: 0px auto;
